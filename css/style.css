@@ -133,4 +133,45 @@ table {
   border-spacing: 0;
 }
 
+body {
+  background-color: #f9f7f7;
+  color: #112d4e;
+}
+
+header {
+  height: 4rem;
+  width: 60vw;
+  display: block;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+header img {
+  height: 100%;
+  width: auto;
+  transform: scale(2.2);
+}
+header nav ul {
+  display: flex;
+}
+header nav ul li {
+  margin-left: 1rem;
+}
+header nav ul .big {
+  color: #f9f7f7;
+  background-color: #3f72af;
+  border-radius: 0.8em;
+  padding: 0.5rem 1rem;
+}
+header nav ul a {
+  text-decoration: none;
+  color: #3f72af;
+  font-size: 1.2rem;
+}
+header nav ul a:hover {
+  color: #112d4e;
+}
+
 /*# sourceMappingURL=style.css.map */
