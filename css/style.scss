@@ -32,6 +32,18 @@ header {
         margin-left: 1rem;
       }
 
+      .btn {
+        color: $bg-color;
+        background-color: $medium;
+        border-radius: 0.8em;
+        padding: 0.5rem 1rem;
+
+        &:hover {
+          background-color: $dark;
+          color: $bg-color;
+        }
+      }
+
       a {
         text-decoration: none;
         color: $medium;
@@ -69,17 +81,23 @@ header {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 600;
+    color: $bg-color;
+    background-color: $medium;
+    border-radius: 0.8em;
+    padding: 1rem 1.5rem;
+
+    &:hover {
+      background-color: $dark;
+    }
   }
 }
 
-.btn {
-  color: $bg-color;
-  background-color: $medium;
-  border-radius: 0.8em;
-  padding: 0.5rem 1rem;
+#showcase {
+  width: 60vw;
+  margin: 5rem auto;
 
-  &:hover {
-    background-color: $dark;
-    color: $bg-color;
+  img {
+    object-fit: cover;
+    width: 100%;
   }
 }

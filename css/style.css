@@ -161,6 +161,16 @@ header nav ul {
 header nav ul li {
   margin-left: 1rem;
 }
+header nav ul .btn {
+  color: #f9f7f7;
+  background-color: #3f72af;
+  border-radius: 0.8em;
+  padding: 0.5rem 1rem;
+}
+header nav ul .btn:hover {
+  background-color: #112d4e;
+  color: #f9f7f7;
+}
 header nav ul a {
   text-decoration: none;
   color: #3f72af;
@@ -192,17 +202,22 @@ header nav ul a:hover {
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: 600;
-}
-
-.btn {
   color: #f9f7f7;
   background-color: #3f72af;
   border-radius: 0.8em;
-  padding: 0.5rem 1rem;
+  padding: 1rem 1.5rem;
 }
-.btn:hover {
+#hero a:hover {
   background-color: #112d4e;
-  color: #f9f7f7;
+}
+
+#showcase {
+  width: 60vw;
+  margin: 5rem auto;
+}
+#showcase img {
+  object-fit: cover;
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
