@@ -121,7 +121,7 @@
         <form action="https://avion-product-landing-second-page.vercel.app"/>
           <div class="radio">
             <label class="labl">
-              <input type="radio" name="price" value="montly" />
+              <input type="radio" name="price" value="montly" required />
               <div>
                 <h3>Monthly</h3>
                 <h5>Subscription</h5>
@@ -129,7 +129,7 @@
               </div>
             </label>
             <label class="labl">
-              <input type="radio" name="price" value="yearly" />
+              <input type="radio" name="price" value="yearly" checked />
               <div>
                 <h3>Yearly <span>save 25%!</span></h3>
                 <h5>Subscription</h5>
@@ -137,7 +137,7 @@
               </div>
             </label>
             <label class="labl">
-              <input type="radio" name="price" value="founder" />
+              <input type="radio" name="price" value="lifetime" />
               <div>
                 <h3>Founder</h3>
                 <h5>Lifetime</h5>
@@ -147,7 +147,7 @@
           </div>
           <div class="email">
             <label for="email">Email</label>
-            <input type="email" name="email" value="" />
+            <input type="email" name="email" value="" required />
           </div>
           <button type="submit">Buy now</button>
         </form>
