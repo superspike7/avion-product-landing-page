@@ -121,31 +121,40 @@
         <form action="#pricing">
           <div class="radio">
             <label class="labl">
-              <input
-                type="radio"
-                name="price"
-                value="montly"
-                checked="checked"
-              />
-              <div>monthly</div>
+              <input type="radio" name="price" value="montly" />
+              <div>
+                <h3>Monthly</h3>
+                <h5>Subscription</h5>
+                <p>$4 per month</p>
+              </div>
             </label>
             <label class="labl">
               <input type="radio" name="price" value="yearly" />
-              <div>yearly</div>
+              <div>
+                <h3>Yearly <span>save 25%!</span></h3>
+                <h5>Subscription</h5>
+                <p>$3 per month</p>
+              </div>
             </label>
             <label class="labl">
               <input type="radio" name="price" value="founder" />
-              <div>founder</div>
+              <div>
+                <h3>Founder</h3>
+                <h5>Lifetime</h5>
+                <p>$149 once</p>
+              </div>
             </label>
           </div>
-          <div>
-            <label for="email">email</label>
+          <div class="email">
+            <label for="email">Email</label>
             <input type="email" name="email" value="" />
           </div>
           <button type="submit">Buy now</button>
         </form>
       </div>
     </section>
+
+    <section id="footer">© Chrono Block 2022</section>
 
     <script src="index.js"></script>
   </body>

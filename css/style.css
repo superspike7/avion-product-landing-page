@@ -323,11 +323,75 @@ header nav ul a:hover {
   /* DIV STYLES */
   cursor: pointer;
   border: 2px solid transparent;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0 1rem;
+}
+#pricing .radio .labl > input + div h3 {
+  font-weight: bold;
+  font-size: 1.8rem;
+  display: inline-flex;
+}
+#pricing .radio .labl > input + div h3 span {
+  font-size: 0.8rem;
+  padding: 0 0.5rem;
+  padding-top: 0.5rem;
+  background: #3f72af;
+  color: #f9f7f7;
+  margin-left: 1rem;
+}
+#pricing .radio .labl > input + div h5 {
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+#pricing .radio .labl > input + div p {
+  font-weight: 700;
+  font-size: 1.2rem;
 }
 #pricing .radio .labl > input:checked + div {
   /* (RADIO CHECKED) DIV STYLES */
-  background-color: #ffd6bb;
-  border: 1px solid #ff6600;
+  background-color: #dbe2ef;
+  border: 1px solid #112d4e;
+  border-radius: 1rem;
+}
+#pricing .email {
+  width: 20vw;
+  margin: 2rem auto;
+  font-size: 1.2rem;
+}
+#pricing .email label {
+  font-weight: 700;
+}
+#pricing .email input {
+  font-size: 1.2rem;
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+  border: 1px solid #112d4e;
+}
+
+form > button {
+  margin: 0 auto;
+  display: block;
+  font-size: 1.8rem;
+  font-weight: bold;
+  background: #3f72af;
+  color: #f9f7f7;
+  border-radius: 0.8rem;
+  padding: 0.2rem 1rem;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+  border: none;
+}
+form > button:hover {
+  background: #112d4e;
+}
+
+#footer {
+  color: #888;
+  text-align: center;
+  padding: 5rem 0;
 }
 
 /*# sourceMappingURL=style.css.map */
