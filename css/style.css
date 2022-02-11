@@ -243,5 +243,32 @@ header nav ul a:hover {
 #about .benefits .container .card p {
   line-height: 1.5rem;
 }
+#about .testimonials {
+  width: 60vw;
+  margin: 3rem auto;
+}
+#about .testimonials h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+#about .testimonials blockquote {
+  width: 80%;
+  margin: 4rem auto;
+}
+#about .testimonials blockquote h3 {
+  font-style: italic;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  font-weight: 600;
+}
+#about .testimonials blockquote footer {
+  margin: 1rem 0;
+  font-weight: 300;
+}
+#about .video {
+  width: 915px;
+  margin: 0 auto;
+}
 
 /*# sourceMappingURL=style.css.map */

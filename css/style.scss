@@ -130,4 +130,37 @@ header {
       }
     }
   }
+
+  .testimonials {
+    width: 60vw;
+    margin: 3rem auto;
+
+    h1 {
+      font-size: 3rem;
+      font-weight: 600;
+      margin-bottom: 3rem;
+    }
+
+    blockquote {
+      width: 80%;
+      margin: 4rem auto;
+
+      h3 {
+        font-style: italic;
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        font-weight: 600;
+      }
+
+      footer {
+        margin: 1rem 0;
+        font-weight: 300;
+      }
+    }
+  }
+
+  .video {
+    width: 915px;
+    margin: 0 auto;
+  }
 }
