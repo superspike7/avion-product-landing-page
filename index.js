@@ -1,4 +1,4 @@
-const myNav = document.querySelector(".header");
+const myNav = document.querySelector("[data-header]");
 window.onscroll = function () {
   if (window.scrollY >= 100) {
     myNav.classList.add("scrolled");
@@ -7,8 +7,8 @@ window.onscroll = function () {
   }
 };
 
-const hamburger = document.querySelector(".hamburger");
-const hamburgerMenu = document.querySelector(".mobile-menu");
+const hamburger = document.querySelector("[data-hamburger]");
+const hamburgerMenu = document.querySelector("[data-mobile-menu]");
 
 hamburger.addEventListener("click", (e) => {
   let button = e.target.innerHTML;
