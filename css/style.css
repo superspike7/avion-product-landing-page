@@ -160,6 +160,12 @@ header nav {
   align-items: center;
   padding-top: 20px;
 }
+header nav .hamburger {
+  font-size: 3rem;
+  cursor: pointer;
+  color: #3f72af;
+  display: none;
+}
 header nav img {
   height: 100%;
   width: auto;
@@ -201,6 +207,9 @@ header nav ul a:hover {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+#hero > * {
+  margin-top: 1rem;
 }
 #hero h1 {
   font-size: 3rem;
@@ -278,7 +287,8 @@ header nav ul a:hover {
   font-weight: 300;
 }
 #about .video {
-  width: 915px;
+  width: 100%;
+  height: 515px;
   margin: 0 auto;
 }
 
@@ -371,6 +381,7 @@ header nav ul a:hover {
   width: 20vw;
   margin: 2rem auto;
   font-size: 1.2rem;
+  text-align: center;
 }
 #pricing .email label {
   font-weight: 700;
@@ -403,6 +414,61 @@ form > button:hover {
   color: #888;
   text-align: center;
   padding: 5rem 0;
+}
+
+@media only screen and (max-width: 1200px) {
+  #showcase,
+#hero,
+.nav-bar {
+    width: 90vw;
+  }
+
+  #about .benefits .container {
+    width: 90vw;
+  }
+  #about .video {
+    width: 100%;
+    height: 40vw;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #about .container {
+    flex-direction: column;
+    width: 80vw;
+  }
+
+  #pricing .radio {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+  #pricing .email {
+    width: 100%;
+    margin: 2rem auto;
+  }
+
+  .labl:first-child {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+  .labl:last-child {
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  header .nav-bar ul {
+    display: none;
+  }
+  header .nav-bar .hamburger {
+    display: block;
+  }
+
+  #hero h1 {
+    font-size: 2.5rem;
+  }
+  #hero h3 {
+    font-size: 1.1rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
