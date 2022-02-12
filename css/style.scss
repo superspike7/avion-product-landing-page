@@ -369,6 +369,21 @@ form > button {
       height: 40vw;
     }
   }
+
+  #pricing {
+    .form {
+      width: 70vw;
+    }
+    .radio {
+      width: 70vw;
+    }
+  }
+
+  .email {
+    input {
+      width: 100%;
+    }
+  }
 }
 
 @media only screen and (max-width: 800px) {
@@ -402,6 +417,21 @@ form > button {
       border-bottom-right-radius: 0.5rem;
     }
   }
+
+  #pricing {
+    .form {
+      width: 65vw;
+    }
+    .radio {
+      width: 65vw;
+    }
+  }
+
+  .email {
+    input {
+      width: 100%;
+    }
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -424,5 +454,11 @@ form > button {
     h3 {
       font-size: 1rem;
     }
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  #showcase {
+    margin-top: 6rem;
   }
 }
