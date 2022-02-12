@@ -144,6 +144,10 @@ body {
   background: #dbe2ef;
 }
 
+.hidden {
+  display: none !important;
+}
+
 header {
   width: 100%;
   height: 6rem;
@@ -160,10 +164,29 @@ header nav {
   align-items: center;
   padding-top: 20px;
 }
+header nav .mobile-menu {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  height: 20vh;
+  background: #dbe2ef;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  padding: 1rem 0;
+  border-top: 1px solid #112d4e;
+}
+header nav .mobile-menu a {
+  color: #3f72af;
+  text-decoration: none;
+  font-size: 1.8rem;
+}
 header nav .hamburger {
   font-size: 3rem;
   cursor: pointer;
   color: #3f72af;
+  user-select: none;
   display: none;
 }
 header nav img {
@@ -172,28 +195,28 @@ header nav img {
   transform: scale(2.2);
   margin-left: 2.5rem;
 }
-header nav ul {
+header nav .menu {
   display: flex;
 }
-header nav ul li {
+header nav .menu li {
   margin-left: 1rem;
 }
-header nav ul .btn {
+header nav .menu .btn {
   color: #f9f7f7;
   background-color: #3f72af;
   border-radius: 0.8em;
   padding: 0.5rem 1rem;
 }
-header nav ul .btn:hover {
+header nav .menu .btn:hover {
   background-color: #112d4e;
   color: #f9f7f7;
 }
-header nav ul a {
+header nav .menu a {
   text-decoration: none;
   color: #3f72af;
   font-size: 1.2rem;
 }
-header nav ul a:hover {
+header nav .menu a:hover {
   color: #112d4e;
 }
 
@@ -456,7 +479,7 @@ form > button:hover {
   }
 }
 @media only screen and (max-width: 600px) {
-  header .nav-bar ul {
+  header .nav-bar .menu {
     display: none;
   }
   header .nav-bar .hamburger {
